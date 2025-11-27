@@ -5,8 +5,7 @@
 
 module.exports = { getUser };*/
 
-
-import { Request, Response } from 'express';
+import { Request, Response } from "express";
 
 interface User {
   id: string;

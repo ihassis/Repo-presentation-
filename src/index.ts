@@ -7,10 +7,9 @@ app.get('/user', getUser); // j'ai crée ma premiere route http get
 
 app.listen(3000, () => console.log('Server running on 3000'));*/
 
-import express from 'express';
-import { getUser } from './controllers/user';
+import express from "express";
+import { getUser } from "./controllers/user";
 
 const app = express();
-app.get('/user', getUser);
-app.listen(3000, () => console.log('Server running on 3000'));
-
+app.get("/user", getUser);
+app.listen(3000, () => console.log("Server running on 3000"));
