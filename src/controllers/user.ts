@@ -11,7 +11,7 @@ import { Request, Response } from "express";
 interface User {
   id: string;
   name: string;
-  age: number;  
+  age: number;      
 }
 
 export function getUser(req: Request, res: Response) {
