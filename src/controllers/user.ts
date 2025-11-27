@@ -6,14 +6,15 @@
 module.exports = { getUser };*/
 
 import { Request, Response } from "express";
+//import { json } from "stream/consumers";
 
 interface User {
   id: string;
   name: string;
-  age: number;
+  age: number;  
 }
 
 export function getUser(req: Request, res: Response) {
-  const user: User = { id: "123", name: "Imane", age: 25 }; // corrected
+  const user: User = { id: "123", name: "Imane", age: 25 };
   res.json(user);
 }
