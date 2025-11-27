@@ -7,15 +7,6 @@
     "test": "tests"
   },
   "scripts": {
-<<<<<<< HEAD
-    "lint": "eslint . --fix",
-    "typecheck": "tsc --noEmit",
-    "build": "tsc",
-    "dev": "ts-node-dev --respawn src/index.ts",
-    "start": "node dist/index.js",
-    "test": "jest --runInBand"
-  },
-=======
   "lint": "eslint src --fix",
   "typecheck": "tsc --noEmit",
   "build": "tsc",
@@ -24,7 +15,6 @@
   "test": "jest --runInBand"
 }
 ,
->>>>>>> c2dba893c496539a8834fd02f0a058b3ac845780
   "keywords": [],
   "author": "",
   "license": "ISC",
