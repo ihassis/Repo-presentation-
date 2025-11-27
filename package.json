@@ -2,12 +2,12 @@
   "name": "repo-presentation-",
   "version": "1.0.0",
   "description": "",
-  "main": ".eslintrc.js",
+  "main": "eslint.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-  "lint": "eslint 'src/**/*.{js,ts,tsx}' --fix",
+  "lint": "eslint src --fix",
   "typecheck": "tsc --noEmit",
   "build": "tsc",
   "dev": "ts-node-dev --respawn src/index.ts",
